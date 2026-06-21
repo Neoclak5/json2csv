@@ -57,7 +57,9 @@ class TestMain:
         self, tmp_path: Path, capsys: pytest.CaptureFixture[str]
     ) -> None:
         """A missing input file prints an error to stderr and exits 1."""
-        with patch("sys.argv", ["json2csv", str(tmp_path / "ghost.json"), "-o", "x.csv"]):
+        with patch(
+            "sys.argv", ["json2csv", str(tmp_path / "ghost.json"), "-o", "x.csv"]
+        ):
             with pytest.raises(SystemExit) as exc:
                 main()
         assert exc.value.code == 1

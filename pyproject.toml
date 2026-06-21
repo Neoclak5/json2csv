@@ -25,6 +25,9 @@ target-version = "py311"
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP", "B"]
 
+[tool.ruff.lint.isort]
+known-first-party = ["json2csv"]
+
 # ── black ─────────────────────────────────────────────────────────────────
 [tool.black]
 line-length = 88

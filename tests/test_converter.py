@@ -21,7 +21,6 @@ from json2csv.converter import (
     write_csv,
 )
 
-
 # ── _flatten ───────────────────────────────────────────────────────────────
 
 class TestFlatten:
