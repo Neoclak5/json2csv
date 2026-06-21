@@ -78,13 +78,9 @@ def load_json(path: str | Path) -> Any:
         with resolved.open(encoding="utf-8") as fh:
             return json.load(fh)
     except json.JSONDecodeError as exc:
-        raise InvalidJsonError(
-            f"Invalid JSON in '{resolved}': {exc}"
-        ) from exc
+        raise InvalidJsonError(f"Invalid JSON in '{resolved}': {exc}") from exc
     except PermissionError as exc:
-        raise Json2CsvError(
-            f"Cannot read file '{resolved}': {exc}"
-        ) from exc
+        raise Json2CsvError(f"Cannot read file '{resolved}': {exc}") from exc
 
 
 def normalize_records(data: Any) -> list[dict[str, Any]]:

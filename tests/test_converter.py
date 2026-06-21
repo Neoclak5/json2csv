@@ -23,6 +23,7 @@ from json2csv.converter import (
 
 # ── _flatten ───────────────────────────────────────────────────────────────
 
+
 class TestFlatten:
     """Unit tests for the _flatten helper."""
 
@@ -70,6 +71,7 @@ class TestFlatten:
 
 
 # ── load_json ──────────────────────────────────────────────────────────────
+
 
 class TestLoadJson:
     """Unit tests for load_json."""
@@ -127,6 +129,7 @@ class TestLoadJson:
 
 # ── normalize_records ──────────────────────────────────────────────────────
 
+
 class TestNormalizeRecords:
     """Unit tests for normalize_records."""
 
@@ -171,6 +174,7 @@ class TestNormalizeRecords:
 
 
 # ── write_csv ──────────────────────────────────────────────────────────────
+
 
 class TestWriteCsv:
     """Unit tests for write_csv."""
@@ -223,6 +227,7 @@ class TestWriteCsv:
 
 
 # ── convert (integration) ──────────────────────────────────────────────────
+
 
 class TestConvert:
     """Integration tests for convert (load → normalise → write)."""
