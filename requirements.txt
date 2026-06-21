@@ -1,0 +1,22 @@
+# Todas las dependencias del proyecto json2csv
+# Instalar con: pip install -r requirements.txt
+
+# ── Testing ───────────────────────────────────────────────────────────────
+pytest>=7.4
+pytest-cov>=4.1
+
+# ── Linting y formato ─────────────────────────────────────────────────────
+ruff>=0.3.0
+black>=24.0
+pycodestyle>=2.11
+pydocstyle[toml]>=6.3
+
+# ── Tipado estático ───────────────────────────────────────────────────────
+mypy>=1.8
+pyright>=1.1.350
+
+# ── Seguridad ─────────────────────────────────────────────────────────────
+bandit[toml]>=1.7
+
+# ── Documentación ─────────────────────────────────────────────────────────
+pdoc>=14.0

@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "address": {
+      "street": "123 Main St",
+      "city": "Buenos Aires",
+      "country": "Argentina"
+    },
+    "tags": ["admin", "user"],
+    "active": true,
+    "score": 95.5
+  },
+  {
+    "id": 2,
+    "name": "Bob Jones",
+    "email": "bob@example.com",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Córdoba",
+      "country": "Argentina"
+    },
+    "tags": ["user"],
+    "active": false,
+    "score": 82.0
+  }
+]

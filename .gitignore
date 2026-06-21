@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy / pyright
+.mypy_cache/
+pyrightconfig.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Documentación generada
+docs/
+
+# OS
+.DS_Store
+Thumbs.db
